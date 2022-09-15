@@ -1,4 +1,4 @@
-import 'package:custom_radio_button/days_of_the_week.dart';
+import 'package:custom_radio_button/second_example/select_gender_options.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const DaysOfWeek(),
+      home: SelectGender(),
     );
   }
 }
